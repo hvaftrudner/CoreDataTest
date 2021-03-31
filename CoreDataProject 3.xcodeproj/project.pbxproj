@@ -14,6 +14,9 @@
 		E0939BBA261141B000FF65D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0939BB9261141B000FF65D8 /* Assets.xcassets */; };
 		E0939BBD261141B000FF65D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0939BBC261141B000FF65D8 /* Preview Assets.xcassets */; };
 		E0939BC0261141B000FF65D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0939BBE261141B000FF65D8 /* LaunchScreen.storyboard */; };
+		E0939BCA261141FD00FF65D8 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0939BC8261141FD00FF65D8 /* Singer+CoreDataClass.swift */; };
+		E0939BCB261141FD00FF65D8 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0939BC9261141FD00FF65D8 /* Singer+CoreDataProperties.swift */; };
+		E0939BCE2611434D00FF65D8 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0939BCD2611434D00FF65D8 /* FilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		E0939BBC261141B000FF65D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0939BBF261141B000FF65D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0939BC1261141B000FF65D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0939BC8261141FD00FF65D8 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E0939BC9261141FD00FF65D8 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E0939BCD2611434D00FF65D8 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 		E0939BAF261141B000FF65D8 /* CoreDataProject 3 */ = {
 			isa = PBXGroup;
 			children = (
+				E0939BC8261141FD00FF65D8 /* Singer+CoreDataClass.swift */,
+				E0939BC9261141FD00FF65D8 /* Singer+CoreDataProperties.swift */,
 				E0939BB0261141B000FF65D8 /* AppDelegate.swift */,
 				E0939BB2261141B000FF65D8 /* SceneDelegate.swift */,
 				E0939BB4261141B000FF65D8 /* ContentView.swift */,
+				E0939BCD2611434D00FF65D8 /* FilteredList.swift */,
 				E0939BB9261141B000FF65D8 /* Assets.xcassets */,
 				E0939BBE261141B000FF65D8 /* LaunchScreen.storyboard */,
 				E0939BC1261141B000FF65D8 /* Info.plist */,
@@ -149,9 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0939BB1261141B000FF65D8 /* AppDelegate.swift in Sources */,
+				E0939BCB261141FD00FF65D8 /* Singer+CoreDataProperties.swift in Sources */,
 				E0939BB3261141B000FF65D8 /* SceneDelegate.swift in Sources */,
+				E0939BCA261141FD00FF65D8 /* Singer+CoreDataClass.swift in Sources */,
 				E0939BB8261141B000FF65D8 /* CoreDataProject_3.xcdatamodeld in Sources */,
 				E0939BB5261141B000FF65D8 /* ContentView.swift in Sources */,
+				E0939BCE2611434D00FF65D8 /* FilteredList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
